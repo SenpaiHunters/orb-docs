@@ -28,8 +28,15 @@ This guide will walk you through the process of installing the Orb CLI on variou
 
 1. Open the Terminal app on your Mac
 2. Install the Orb CLI by running the following command in your terminal:
-   ```brew orb install```
+```bash 
+brew tap orbforge/orb
+brew install orb
+```
 3. Wait for the installation to complete
+4. Once the installation is complete, you can start the Orb service by running:
+```bash
+brew services start orb
+```
 
 ## Windows CLI Installation
 
@@ -47,11 +54,11 @@ This guide will walk you through the process of installing the Orb CLI on variou
 ### Step 2: Open your Favorite Terminal Application
 
 1. Open the Terminal app on your Windows machine (e.g., Command Prompt, PowerShell, or Windows Terminal)
-2. Install the Orb CLI by running the following command in your terminal:
-   ```powershell
-   orb install
+2. To verify that the Orb CLI installed correctly, run the following command:
+   ```bash
+   orb version
    ```
-3. Wait for the installation to complete
+3. If the command returns the version number, the installation was successful
 
 ## FreeBSD CLI Installation
 
@@ -59,8 +66,16 @@ This guide will walk you through the process of installing the Orb CLI on variou
 - Ensure you have FreeBSD installed on your machine
 - Make sure you have administrative privileges to install software
 
-### Step 1: Download the Orb CLI for FreeBSD
+### Step 1: Download the Orb CLI for FreeBSD - This section needs work for after we have packaged FreeBSD
 1. On your FreeBSD machine, download the [Orb CLI for FreeBSD AMD64](https://pkgs.orb.net/earlyaccess/orb-freebsd-amd64.zip) or [Orb CLI for FreeBSD ARM64](https://pkgs.orb.net/earlyaccess/orb-freebsd-arm64.zip)
+1. Download the appropriate zip file based on your architecture:
+   - For AMD64 architecture:
+   ```bash orb-freebsd-amd64.zip
+   ```
+   or
+   ```bash
+   unzip orb-freebsd-arm64.zip
+   ```
 2. Wait for the zip file to download completely
 3. Once downloaded, locate the zip file in your Downloads folder
 4. Extract the contents of the zip file using the following command:
@@ -93,7 +108,7 @@ This guide will walk you through the process of installing the Orb CLI on variou
 3. The script will automatically download the appropriate Orb CLI for your Linux distribution and install it
 4. Once the installation is complete, you can verify it by running:
    ```bash
-   orb --version```
+   orb version```
 5. If you encounter any issues, you can refer to the [Orb Linux documentation](https://orb.net/docs/setup-sensor/linux) for more detailed installation instructions
 
 ## Troubleshooting

@@ -6,11 +6,11 @@ section: Installing & Using Orb CLI
 ---
 
 # Installing & Using Orb CLI
-The Orb CLI is a powerful command-line interface that allows you to manage your Orb sensors and interact with your Orb account directly from the terminal. This guide provides step-by-step instructions for installing and using the Orb CLI on various platforms.
+The Orb CLI is a powerful command-line interface where you interact with your Orb account directly from the terminal. This guide provides step-by-step instructions for installing and using the Orb CLI on various platforms.
 
 ## Installation Guide
 
-- [Installing Orb CLI](/docs/installing-using-orb-cli/installing-orb-cli.md) - Step-by-step guide for installing the Orb CLI on macOS, Windows, FreeBSD, and Linux.}
+- [Installing Orb CLI](/docs/installing-using-orb-cli/installing-orb-cli.md) - Step-by-step guide for installing the Orb CLI on macOS, Windows, FreeBSD, and Linux.
 -
 ## Linking Orb CLI to Your Account
 

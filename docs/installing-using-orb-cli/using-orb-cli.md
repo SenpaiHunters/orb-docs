@@ -23,32 +23,9 @@ Flags:
   -h, --help     help for example
   -r  --remote   connect to remote host
 
-## Uninstalling Orb CLI
+## Uninstalling Orb CLI - consider including in each individual guide
 To uninstall the Orb CLI, you can use the following command in your terminal:
 ```bash
 orb uninstall
 ```
 This will remove the Orb CLI from your system.
-
-## Updating Orb CLI
-To update the Orb CLI to the latest version, you can use the following command:
-```bash
-orb update
-```
-This will check for updates and install the latest version of the Orb CLI.
-
-## Auto-Starting the Orb CLI Service
-
-### At Boot
-To start the Orb CLI service at boot, you can use the following command:
-```bash
-orb start --boot
-```
-This will ensure that the Orb CLI service starts automatically when your system boots up.
-
-### At login
-To start the Orb CLI service at login, you can use the following command:
-```bash
-orb start --login
-```
-This will ensure that the Orb CLI service starts automatically when you log in to your system.
